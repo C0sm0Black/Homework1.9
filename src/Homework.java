@@ -17,6 +17,24 @@ public class Homework {
 
     public static void main(String[] args) {
 
+        task1();
+
+    }
+
+    private static void task1() {
+
+        System.out.println("Задача 1");
+
+        int [] array = generateRandomArray();
+        int total = 0;
+
+        for (int index: array) {
+
+            total = total + index;
+
+        }
+
+        System.out.println("Сумма трат за месяц составила " + total + " рублей");
 
     }
 
