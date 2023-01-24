@@ -18,6 +18,31 @@ public class Homework {
     public static void main(String[] args) {
 
         task1();
+        task2();
+
+    }
+
+    private static void task2() {
+
+        System.out.println("Задача 2");
+
+        int[] array = generateRandomArray();
+        int max = array[0];
+        int min = array[0];
+
+        for (int index : array) {
+
+            if (max < index) {
+                max = index;
+            }
+
+            if (min > index) {
+                min = index;
+            }
+
+        }
+
+        System.out.println("Минимальная сумма трат за день составила " + min + " рублей. Максимальная сумма трат за день" + " составила " + max + " рублей");
 
     }
 
@@ -25,10 +50,10 @@ public class Homework {
 
         System.out.println("Задача 1");
 
-        int [] array = generateRandomArray();
+        int[] array = generateRandomArray();
         int total = 0;
 
-        for (int index: array) {
+        for (int index : array) {
 
             total = total + index;
 
