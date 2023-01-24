@@ -17,6 +17,82 @@ public class Homework {
 
     public static void main(String[] args) {
 
+        task1();
+        task2();
+        task3();
+        task4();
+
+    }
+
+    private static void task4() {
+
+        System.out.println("Задача 4");
+
+        char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
+
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
+        }
+
+        System.out.println();
+
+    }
+
+    private static void task3() {
+
+        System.out.println("Задача 3");
+
+        int[] array = generateRandomArray();
+        int total = 0;
+
+        for (int index : array) {
+            total = total + index;
+        }
+
+        double average = (double) total / array.length;
+
+        System.out.println("Средняя сумма трат за месяц составила " + String.format("%.2f", average) + " рублей");
+
+    }
+
+    private static void task2() {
+
+        System.out.println("Задача 2");
+
+        int[] array = generateRandomArray();
+        int max = array[0];
+        int min = array[0];
+
+        for (int index : array) {
+
+            if (max < index) {
+                max = index;
+            }
+
+            if (min > index) {
+                min = index;
+            }
+
+        }
+
+        System.out.println("Минимальная сумма трат за день составила " + min + " рублей. Максимальная сумма трат за день" + " составила " + max + " рублей");
+
+    }
+
+    private static void task1() {
+
+        System.out.println("Задача 1");
+
+        int[] array = generateRandomArray();
+        int total = 0;
+
+        for (int index : array) {
+
+            total = total + index;
+
+        }
+
+        System.out.println("Сумма трат за месяц составила " + total + " рублей");
 
     }
 
