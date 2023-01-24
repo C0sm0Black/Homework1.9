@@ -19,6 +19,24 @@ public class Homework {
 
         task1();
         task2();
+        task3();
+
+    }
+
+    private static void task3() {
+
+        System.out.println("Задача 3");
+
+        int[] array = generateRandomArray();
+        int total = 0;
+
+        for (int index : array) {
+            total = total + index;
+        }
+
+        double average = (double) total / array.length;
+
+        System.out.println("Средняя сумма трат за месяц составила " + String.format("%.2f", average) + " рублей");
 
     }
 
