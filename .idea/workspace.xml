@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe86889b-ad80-4c62-826d-a6a12da5c59d" name="Changes" comment="Task 2">
+    <list default="true" id="fe86889b-ad80-4c62-826d-a6a12da5c59d" name="Changes" comment="Task 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="homework_task_2" />
+        <entry key="$PROJECT_DIR$" value="homework_task_3" />
       </map>
     </option>
   </component>
@@ -69,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674557413328</updated>
-      <workItem from="1674557413922" duration="749000" />
+      <workItem from="1674557413922" duration="1361000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1674557495281</created>
@@ -92,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674557971457</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Task 3">
+      <created>1674558469002</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674558469002</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +110,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Task 1" />
     <MESSAGE value="Task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2" />
+    <MESSAGE value="Task 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 3" />
   </component>
 </project>
